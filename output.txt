@@ -1,5 +1,0 @@
-Searching for duct
-In filename example.txt
- duct 
- productive
- productive in Rust,

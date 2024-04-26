@@ -9,6 +9,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "channels"
+version = "0.1.0"
+
+[[package]]
+name = "cli"
+version = "0.1.0"
+dependencies = [
+ "rand",
+]
+
+[[package]]
 name = "getrandom"
 version = "0.2.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -24,6 +35,18 @@ name = "libc"
 version = "0.2.153"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd"
+
+[[package]]
+name = "mutex"
+version = "0.1.0"
+
+[[package]]
+name = "oop"
+version = "0.1.0"
+
+[[package]]
+name = "pointers"
+version = "0.1.0"
 
 [[package]]
 name = "ppv-lite86"
@@ -62,11 +85,16 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-learning"
+name = "single_threaded_ws"
 version = "0.1.0"
-dependencies = [
- "rand",
-]
+
+[[package]]
+name = "smart_pointers"
+version = "0.1.0"
+
+[[package]]
+name = "threads"
+version = "0.1.0"
 
 [[package]]
 name = "wasi"

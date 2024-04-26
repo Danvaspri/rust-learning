@@ -1,4 +1,4 @@
-use rust_learning::Config;
+use cli::Config;
 use std::{env, process};
 fn main() {
   
@@ -13,7 +13,7 @@ fn main() {
     println!("Searching for {}", config.query);
     println!("In filename {}", config.filename);
 
-    if let Err(e) = rust_learning::run(config) {
+    if let Err(e) = cli::run(config) {
         eprint!("Application error: {}", e);
         process::exit(1);
     }

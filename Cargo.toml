@@ -1,7 +1,8 @@
-[package]
+
+[workspace]
 name = "rust-learning"
 version = "0.1.0"
 edition = "2021"
+resolver = "2"
+members = [  "channels","cli", "mutex", "oop", "pointers", "single_threaded_ws", "smart_pointers", "threads"]
 
-[dependencies]
-rand = "0.8.5"

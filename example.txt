@@ -1,9 +1,0 @@
- this is an example of a file 
- that could be used to 
- search into the contents, 
- and im using it to learn rust.
- Duct
- duct 
- productive
- productive in Rust,
- and rust
